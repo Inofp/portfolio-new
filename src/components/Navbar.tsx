@@ -10,16 +10,16 @@ const Navbar = () => {
                         <span>Ari's portfolio</span>
                     </Link>
 
-                    <div className="hidden items-center space-x-4 text-[18px] sm:flex hover:opacity-75">
+                    <div className="hidden items-center space-x-4 text-[18px] sm:flex ">
                         <>
-                            <Link href='#'>Home
+                            <Link href='#' className="hover:opacity-75">Home
                             </Link>
 
-                            <Link href='#'>
+                            <Link href='#' className="hover:opacity-75">
                                 About me
                             </Link>
 
-                            <Link href='#'>
+                            <Link href='#' className="hover:opacity-75">
                                 Projects
                             </Link>
                         </>
